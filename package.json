@@ -1,0 +1,22 @@
+{
+  "name": "fake-news-bot-back-end",
+  "version": "1.0.0",
+  "description": "Bot that spreads link that contains (but actually don't) fake news. Made for study purposes only.",
+  "main": "src/index.js",
+  "repository": "https://github.com/gabriel21henrique/fake-news-bot-back-end.git",
+  "author": "gabriel21henrique",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.0",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
