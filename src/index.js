@@ -13,4 +13,4 @@ app.use(morgan("short"));
 app.use(cors());
 app.use(require('./routes/routes'));
 
-// app.listen(3333);
+app.listen(3333);
